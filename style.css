@@ -32,7 +32,7 @@ body {
 
 .sidebar {
     width: 40%;
-    background: url('images/flowers.jpg') 0% 0% no-repeat ;
+    background: url('./images/flowers.jpg') 0% 0% no-repeat ;
     border: 1px solid black;
     background-size: cover;
     background-attachment: fixed;
@@ -50,7 +50,7 @@ body {
     background-color: #0a0a0a5a;
 }
 .logo-image {
-    background: url('images/odin-lined.png') no-repeat;
+    background: url('./images/odin-lined.png') no-repeat;
     background-size: 100%;
     background-position: center;
     width: 100px;
