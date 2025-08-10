@@ -61,7 +61,7 @@ body {
     color: white;
     font-family: 'Kaushan', sans-serif;
 }
-.credit, a {
+.credit, .credit a {
     color: white;
     align-self: center;
 }
@@ -113,6 +113,10 @@ form {
 .form-bottom {
     padding: 2em 5%;
     flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 fieldset {
@@ -157,11 +161,17 @@ input {
     box-sizing: border-box;
 }
 
-input:invalid {
+input:user-invalid {
     border: 4px solid red;
 }
 
 input:focus {
     border: 3px solid aqua;
     box-shadow: 3px 3px 1px 1px #0000003a;
+}
+
+.form-bottom a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
 }
