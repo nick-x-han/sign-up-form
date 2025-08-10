@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="logo">
+                <div class="logo-image"></div>
+                <div class="logo-text">ODIN</div>
+            </div>
+            <div class="credit">
+                Photo by <a href="https://unsplash.com/@aaronburden">Aaron Burden</a> on <a href="https://unsplash.com">Unsplash</a>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="#">
+                <div class="form-top">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to. </p>
+                </div>
+                <div class="form-center">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <div class="input-row">
+                            <div class="input">
+                                <label for="first_name">First Name</label>
+                                <input type="text" name="first_name" placeholder="John" id="first_name" required>
+                            </div>
+                            <div class="input">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" name="last_name" placeholder="Doe" id="last_name" required>
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                            </div>
+                            <div class="input">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" name="phone-number" id="phone-number">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                            <div class="input">
+                                <label for="confirm">Confirm Password</label>
+                                <input type="password" name="confirm" id="confirm" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="form-bottom">
+                    <button>Create Account</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

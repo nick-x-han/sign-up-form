@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Kaushan';
+    src: url('fonts/KaushanScript-Regular.woff2') format('woff2'),
+        url('fonts/KaushanScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('fonts/Exo-Light.woff2') format('woff2'),
+        url('fonts/Exo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main {
+    background-color: #f6f6f6;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 40%;
+    background: url('/images/flowers.jpg') 0% 0% no-repeat ;
+    border: 1px solid black;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #aaaaaa;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+    justify-content: center;
+    background-color: #0a0a0a5a;
+}
+.logo-image {
+    background: url('/images/odin-lined.png') no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100px;
+    height: 200px;
+}
+.logo-text {
+    font-size: 96px;
+    color: white;
+    font-family: 'Kaushan', sans-serif;
+}
+.credit, a {
+    color: white;
+    align-self: center;
+}
+
+.credit {
+    margin-bottom: 1em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form button {
+    background-color: #596D48;
+    color: white;
+    font-weight: 800;
+    border-radius: 4px;
+    padding: 0.75em 2.5em;
+
+}
+
+form * {
+    font-family: inherit;
+}
+
+form {
+    font-family: 'Exo', sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20% 0;
+}
+
+.form-top {
+    font-weight: 1000;
+    padding: 2em 5%;
+    flex: 3;
+}
+.form-center {
+    background-color: white;
+    padding: 2em 5%;
+    position: relative;
+    flex: 2;
+}
+.form-bottom {
+    padding: 2em 5%;
+    flex: 3;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px 32px;
+}
+
+legend {
+    position: absolute;
+    font-size: 24px;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    /* height: fit-content;
+    width: fit-content; */
+    align-self: flex-start;
+    flex: initial;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-row {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0px 32px;
+}
+
+input {
+    appearance: none;
+    min-width: 20em;
+    border-radius: 4px;
+    border: 1px #E5E7EB solid;
+    box-sizing: border-box;
+}
+
+input:invalid {
+    border: 4px solid red;
+}
+
+input:focus {
+    border: 3px solid aqua;
+    box-shadow: 3px 3px 1px 1px #0000003a;
+}
