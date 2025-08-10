@@ -109,6 +109,7 @@ form {
     padding: 2em 5%;
     position: relative;
     flex: 2;
+    box-shadow: 3px 3px 1px 1px #0000001a;
 }
 .form-bottom {
     padding: 2em 5%;
